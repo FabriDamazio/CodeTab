@@ -1,0 +1,44 @@
+.screenreaders {
+    clip: rect(1px, 1px, 1px, 1px); 
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden; 
+    position: absolute !important;
+}
+
+body {
+    background-color: #FCF7F8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0892A5;
+}
+a {
+    text-decoration: none;
+    color: #0892A5;
+}
+
+h1 {
+    padding: 0 20px 40px 10px;
+}
+
+#tippanel {
+    margin: 0 auto;
+    color: #022B3A;
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tiptitle {
+    font-size: 4rem;
+}
+
+#tipbody {
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    color: #272727;
+}
