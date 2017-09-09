@@ -5,6 +5,8 @@ Google Chrome extension that shows a programming tip from The Pragmatic Programm
 
 Type ```chrome://extensions/``` at your Google Chrome address bar.
 
+Enable developer mode.
+
 Drag and drop the entire folder at the Google Chrome window.
 
 Be amazed.
