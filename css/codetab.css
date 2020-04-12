@@ -6,27 +6,42 @@
     position: absolute !important;
 }
 
+html, body {
+    height: 95%;    
+}
+
 body {
-    background-color: #FCF7F8;
+    background-color: #282a36;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #0892A5;
+    color: #8be9fd;    
 }
 a {
     text-decoration: none;
-    color: #0892A5;
+    color: #bd93f9;
 }
 
 h1 {
+    grid-area: header;
     padding: 0 20px 40px 10px;
+    color: #6272a4;
+}
+
+.wrapper {    
+    min-height: 100%;        
+    grid-template-areas: 
+        "header"    
+        "content"    
+        "footer";
 }
 
 #tippanel {
-    margin: 0 auto;
-    color: #022B3A;
-    width: 70%;
-    height: 400px;
+    align-self: center;
+    justify-self: center;
+    color: #8be9fd;
     text-align: center;
     border-radius: 20px;
+    margin: 0px 50px;
+    padding-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -39,6 +54,7 @@ h1 {
 }
 
 footer {
+    grid-area: footer;
     text-align: center;
-    color: #272727;
+    color: #6272a4;
 }
