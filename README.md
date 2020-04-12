@@ -3,6 +3,10 @@ Google Chrome extension that shows a programming tip from The Pragmatic Programm
 
 **INSTALLATION**
 
+[Chrome Store link](https://chrome.google.com/webstore/detail/codetab/kckjbnjhbblnlcmcahfnnopeieggpnmd)
+
+Or
+
 Type ```chrome://extensions/``` at your Google Chrome address bar.
 
 Enable developer mode.
